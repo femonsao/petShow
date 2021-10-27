@@ -1,0 +1,31 @@
+<div class="menu-container mat-elevation-z3">
+  <div class="left-content">
+    <button mat-button routerLink="/home">
+      <mat-icon aria-hidden="false" aria-label="Example home icon"
+        >home</mat-icon
+      >
+      Home
+    </button>
+
+    <button mat-button routerLink="/my-posts">
+      <mat-icon aria-hidden="false" aria-label="Example home icon"
+        >photo</mat-icon
+      >
+      Minhas Postagens
+    </button>
+
+    <button mat-button routerLink="/friends">
+      <mat-icon aria-hidden="false" aria-label="Example home icon"
+        >people</mat-icon
+      >
+      Amigos
+    </button>
+  </div>
+  <div class="right-content">
+    <button mat-button [matMenuTriggerFor]="afterMenu">User</button>
+    <mat-menu #afterMenu="matMenu" xPosition="after">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item routerLink="">Sair</button>
+    </mat-menu>
+  </div>
+</div>

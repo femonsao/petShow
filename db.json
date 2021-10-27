@@ -1,0 +1,28 @@
+{
+  "users":[
+    {
+      "id":1,
+      "name": "Matheus",
+      "login": "m@theus",
+      "password": "m123t"
+    },
+    {
+      "id":2,
+      "name": "Luiz",
+      "login": "Lu1z",
+      "password": "123456"
+    },
+    {
+      "id":3,
+      "name": "Marcia",
+      "login": "m@cia",
+      "password": "123456"
+    },
+    {
+      "id":4,
+      "name": "Bruna",
+      "login": "brun@",
+      "password": "123456"
+    }
+  ]
+}
